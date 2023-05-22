@@ -9,8 +9,8 @@
 
 тестировалось на windows 10 x64
 # компиляция: 
-- [clang++]: clang++ .\SoSeriousApologiez.cpp -o mach.exe (в папке появится mach.exe >> создать файл text.txt и вписать в него нужный текст >> запустить файл)
-- [g++]: g++ .\SoSeriousApologiez.cpp -o mach.exe (действия аналогичны)
+- [clang++]: clang++ mach_write.cpp -o mach.exe (в папке появится mach.exe >> создать файл text.txt и вписать в него нужный текст >> запустить файл)
+- [g++]: g++ mach_write.cpp -o mach.exe (действия аналогичны)
 
 # проблемы:
   - на macos с функцией this_thread::sleep_for() выводится весь текст сразу а не по символьно.
